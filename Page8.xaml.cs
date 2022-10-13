@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace Wpf_PR5_Pisarev_
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page8.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page8 : Page
     {
-        public MainWindow()
+        public Page8()
         {
             InitializeComponent();
-        }
-
-        private void Button_Okno2_Click(object sender, RoutedEventArgs e)
-        {
-            Okno2 okno2 = new Okno2();
-            okno2.Show();
-        }
-
-        private void Button_Okno3_Click(object sender, RoutedEventArgs e)
-        {
-            Okno3 okno3 = new Okno3();
-            okno3.Show();
         }
     }
 }

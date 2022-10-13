@@ -15,5 +15,7 @@
             Данная страница находжится в оконном приложении
         </TextBlock>
         <Frame Grid.Column="1" Source="Page1.xaml" Margin="3" BorderBrush="LightGreen" BorderThickness="2"></Frame>
+        <Button Content="Окно2" Background="Gray" Margin="10,31,261,345" Click="Button_Okno2_Click"/>
+        <Button Content="Окно3" Background="Gray" Margin="10,79,261,297" Click="Button_Okno3_Click"/>
     </Grid>
 </Window>
