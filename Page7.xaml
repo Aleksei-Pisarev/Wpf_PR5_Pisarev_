@@ -11,11 +11,11 @@
     <Grid Background="#81a0eb">
         <Canvas>
 
-            <Label Content="-Case 1" Canvas.Left="10" Canvas.Top="10" FontSize="25" />
-            <Label Content="-Case 2" Canvas.Left="10" Canvas.Top="58" FontSize="25"/>
-            <Label Content="-Case 3" Canvas.Left="10" Canvas.Top="106" FontSize="25"/>
-            <Label Content="-Case 4" Canvas.Left="10" Canvas.Top="154" FontSize="25"/>
-            <Label Content="-Case 5" Canvas.Left="10" Canvas.Top="202" FontSize="25"
+            <Label Content="-Case 1" Canvas.Left="10" Canvas.Top="10" FontSize="25" Foreground="White" />
+            <Label Content="-Case 2" Canvas.Left="10" Canvas.Top="58" FontSize="25" Foreground="White"/>
+            <Label Content="-Case 3" Canvas.Left="10" Canvas.Top="106" FontSize="25" Foreground="White"/>
+            <Label Content="-Case 4" Canvas.Left="10" Canvas.Top="154" FontSize="25" Foreground="White"/>
+            <Label Content="-Case 5" Canvas.Left="10" Canvas.Top="202" FontSize="25" Foreground="White"/>
         </Canvas>
     </Grid>
 </Page>

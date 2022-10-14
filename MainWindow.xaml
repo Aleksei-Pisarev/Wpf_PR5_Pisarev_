@@ -17,5 +17,8 @@
         <Frame Grid.Column="1" Source="Page1.xaml" Margin="3" BorderBrush="LightGreen" BorderThickness="2"></Frame>
         <Button Content="Окно2" Background="Gray" Margin="10,31,261,345" Click="Button_Okno2_Click"/>
         <Button Content="Окно3" Background="Gray" Margin="10,79,261,297" Click="Button_Okno3_Click"/>
+        <Button Content="Окно4" Background="Gray" Margin="10,127,261,249" Click="Button_Okno4_Click"/>
+        <Button Content="Окно5" Background="Gray" Margin="10,175,261,201" Click="Button_Okno5_Click"/>
+        <Button Content="Окно6" Background="Gray" Margin="10,223,261,153" Click="Button_Okno6_Click"/>
     </Grid>
 </Window>

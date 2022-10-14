@@ -36,5 +36,21 @@ namespace Wpf_PR5_Pisarev_
             Okno3 okno3 = new Okno3();
             okno3.Show();
         }
+
+        private void Button_Okno4_Click(object sender, RoutedEventArgs e)
+        {
+            Okno4 okno4 = new Okno4();
+            okno4.Show();
+        }
+        private void Button_Okno5_Click(object sender, RoutedEventArgs e)
+        {
+            Okno5 okno5 = new Okno5();
+            okno5.Show();
+        }
+        private void Button_Okno6_Click(object sender, RoutedEventArgs e)
+        {
+            Okno6 okno6 = new Okno6();
+            okno6.Show();
+        }
     }
 }

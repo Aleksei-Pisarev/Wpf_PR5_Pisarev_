@@ -22,9 +22,7 @@
             <MenuItem Header="_New Case" FontSize="20" Foreground="White"/>
         </Menu>
         <Label Background="#d0dbf5" Grid.ColumnSpan="2" Grid.Row="1" BorderBrush="Blue"/>
-        <Label Grid.Row="2" Margin="30" BorderBrush="Blue" BorderThickness="3" Background="#81a0eb">
-            <Hyperlink NavigateUri="Page7.xaml" FontSize="25" Foreground="White">-Case 1</Hyperlink>
-        </Label>
-        <Frame Grid.Column="2" Grid.Row="2"  Source="Page7.xaml"></Frame>
+        <Frame  Grid.Row="2"  Margin="30" BorderBrush="Blue" BorderThickness="2" Source="Page7.xaml"></Frame>
+        <Frame  Grid.Column="2" Grid.Row="2"  Margin="30" BorderBrush="Blue" BorderThickness="2" Source="Page8.xaml"></Frame>
     </Grid>
 </Window>

@@ -1,0 +1,30 @@
+﻿<Page x:Class="Wpf_PR5_Pisarev_.Page11"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Wpf_PR5_Pisarev_"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page11">
+
+    <Grid Background="#babbbf">
+        <DataGrid x:Name="phonesGrid" AutoGenerateColumns="False" HorizontalGridLinesBrush="DarkGray"
+    RowBackground="LightGray" AlternatingRowBackground="White">
+
+            <DataGrid.Items>
+                <local:Phone Mesto="Вход в офис" Pein="У двери" SNomer="55643656" IP="192.168.201 89" MAC="16912168546" Sat="251685465" Date2="465465" />
+            </DataGrid.Items>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Место" Binding="{Binding Path=Mesto}" Width="90"  />
+                <DataGridTextColumn Header="Точка" Binding="{Binding Path=Pein}" Width="80" />
+                <DataGridTextColumn Header="Серийный номер" Binding="{Binding Path=SNomer}" Width="110" />
+                <DataGridTextColumn Header="IP адрес" Binding="{Binding Path=IP}" Width="110" />
+                <DataGridTextColumn Header="МАС адрес" Binding="{Binding Path=MAC}" Width="150" />
+                <DataGridTextColumn Header="Состояние подключения" Binding="{Binding Path=Sat}" Width="150" />
+                <DataGridTextColumn Header="Дата и время Детектор" Binding="{Binding Path=Date2}" Width="150" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Page>
